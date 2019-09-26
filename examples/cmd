@@ -1,0 +1,1 @@
+DISENTANGLEMENT_LIB_DATA=~/workspace/disentanglement_lib/data nohup python example.py &> out.big &

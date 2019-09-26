@@ -43,7 +43,7 @@ setup(
     install_requires=[
         'future',
         'imageio',
-        'gin-config',
+        'gin-config==0.1.2',
         'scikit-learn',
         'numpy',
         'pandas',
@@ -54,11 +54,11 @@ setup(
         'pandas>=0.23.0',
         'scipy>=1.0.0',
         'tensorflow_hub>=0.2',
-        'tensorflow_probability',
+        'tensorflow_probability==0.6.0',
     ],
     extras_require={
         'tf': ['tensorflow>=1.7'],
-        'tf_gpu': ['tensorflow-gpu>=1.4.1'],
+        'tf_gpu': ['tensorflow-gpu==1.13.1'],
     },
     classifiers=[
         'Development Status :: 4 - Beta',
