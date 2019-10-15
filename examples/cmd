@@ -1,1 +1,3 @@
-DISENTANGLEMENT_LIB_DATA=~/workspace/disentanglement_lib/data nohup python example.py &> out.big &
+docker build --tag mytf .
+docker run --rm --gpus all -it -v ~/workspace/google_disentanglement_lib:/dlib mytf bash
+DISENTANGLEMENT_LIB_DATA=/dlib/data nohup python example.py &> out.big &
